@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eleição Turma</title>
+</head>
+<body>
+    <form>
+        <table width="80%" align="center" border="0">
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome">
+                        <hr>
+                        <label for="sexo">Sexo:</label><br>
+                        <label for="masculino">
+                            <input type="radio" id="masculino" name="masculino">
+                            Masculino
+                        </label>
+                        <label for="sexo">Sexo:</label><br>
+                        <label for="feminino">
+                            <input type="radio" id="feminino" name="feminino">
+                            Feminino
+                        </label>
+                        <hr>
+                        <label for="cidade" id="cidade" name="cidade">Cidade:</label><br>
+                        <Select id="cidade" name="cidade">
+                                <option disabled selected>Selecione a cidade</option>
+                                <option value="ceara-mirim">Ceará-Mirim</option>
+                                <option value="extremoz">Extremoz</option>
+                                <option value="mossoro">Mossoró</option>
+                                <option value="natal">Natal</option>
+                                <option value="parnamirim">Parnamirim</option>
+                            </Select>
+                        <hr>
+                        <label for="escolaridade" id="escolaridade" name="escolaridade">Escolaridade:</label><br>
+                        <Select id="escolaridade" name="escolaridade">
+                                <option disabled selected>Selecione a escolaridade</option>
+                                <option value="fundamental">Fundamental</option>
+                                <option value="medio">Médio</option>
+                                <option value="graduacao">Graduação</option>
+                                <option value="especializacao">Especialização</option>
+                                <option value="mestrado">Mestrado</option>
+                                <option value="doutorado">Doutorado</option>
+                            </Select>
+                    </fieldset>
+                </td>
+                <td valign="top">
+                    <fieldset>
+                        <legend>Candidatos</legend>
+                        <label for="candidato">Candidato</label><br>
+                        <Select id="candidato" name="candidato">
+                                <option disabled selected>Escolha seu candidato</option>
+                                <option value="alvaro">Alvaro Dias</option>
+                                <option value="ciro">Ciro Gomes</option>
+                                <option value="eymael">Jose Eymael</option>
+                                <option value="haddad">Fernando Haddad</option>
+                                <option value="bolsonaro">Jair Bolsonaro</option>
+                        </Select>
+                        <hr>
+                        <label for="cargo">cargo</label><br>
+                        <label for="lider">
+                            <input type="radio" id="cargo" name="cargo">Líder
+                            <br>
+                            <label for="vicelider">
+                                    <input type="radio" id="cargo" name="cargo">Vice-líder
+                        </label>
+                        <p align="right">
+                            <button type="submit">Vote</button>
+                            <button type="reset">Limpar</button>
+                        </p>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

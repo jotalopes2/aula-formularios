@@ -47,6 +47,58 @@
             name="nascimento"
             value="2019-06-10">
         <br>
+        <label for="sexo">Sexo:</label>
+        <label for="masculino">
+            <input type="radio"
+            id="masculino"
+            name="sexo">Masculino
+        </label>
+        <label for="feminino">
+            <input type="radio"
+            id="feminino"
+            name="sexo">Feminino
+        </label>
+        <label for="outros">
+            <input type="radio"
+            id="outros"
+            name="sexo">Outros
+        </label>
+        <br>
+        <label>Hobby:</label>
+        <br>
+        <label>
+            <input type="checkbox"
+            id="futebol"
+            name="futebol">futebol
+        </label>
+        <label>
+                <input type="checkbox"
+                id="surf"
+                name="surf">surf
+        </label>
+        <br><br>
+        
+        <!-- Caixa de seleção -->
+        <label for="cidade">Cidade:</label>
+        <select name="cidade" id="cidade">
+            <option disabled selected>Selecione...</option>
+            <option value="ntl">Natal</option>
+            <option value="poa">Porto Alegre</option>
+            <option value="rec">Recife</option>
+            <option value="gru">São Paulo</option>
+        </select>
+        <br><br>
+
+        <!--Área de texto-->
+        <textarea name="sugestao"
+            id="sugestao"
+            cols="30"
+            rows="10"
+            maxlength="400"
+            placeholder="Sua sugestão aqui...">
+        </textarea>
+        <br><br>
+        
         <button type="submit">Cadastrar</button>
         <button type="reset">Limpar</button>
         <br>

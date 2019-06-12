@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Eleicoes 2019</title>
+</head>
+
+<body>
+    <h1>Eleicoes para "Eleicoes 2019"</h1>
+    <br><br>
+    <form>
+        <table>
+            <tr>
+                <td>Categoria</td>
+                <td>Candidato</td>
+            </tr>
+            <tr>
+                <td>Lider</td>
+                <td><Select id="lider" name="lider">
+                        <option disabled selected>Escolha seu candidato</option>
+                        <option value="alvaro">Alvaro Dias</option>
+                        <option value="ciro">Ciro Gomes</option>
+                        <option value="eymael">Jose Eymael</option>
+                        <option value="haddad">Fernando Haddad</option>
+                        <option value="bolsonaro">Jair Bolsonaro</option>
+                    </Select></td>
+            </tr>
+            <tr>
+                <td>Vice-lider</td>
+                <td><Select id="vicelider" name="vicelider">
+                        <option disabled selected>Escolha seu candidato</option>
+                        <option value="alvaro">Alvaro Dias</option>
+                        <option value="ciro">Ciro Gomes</option>
+                        <option value="eymael">Jose Eymael</option>
+                        <option value="haddad">Fernando Haddad</option>
+                        <option value="bolsonaro">Jair Bolsonaro</option>
+                    </Select></td>
+            </tr>
+            <tr>
+                <td>Secretário</td>
+                <td><Select id="secretario" name="secretario">
+                        <option disabled selected>Escolha seu candidato</option>
+                        <option value="alvaro">Alvaro Dias</option>
+                        <option value="ciro">Ciro Gomes</option>
+                        <option value="eymael">Jose Eymael</option>
+                        <option value="haddad">Fernando Haddad</option>
+                        <option value="bolsonaro">Jair Bolsonaro</option>
+                    </Select></td>
+            </tr>
+        </table>
+        <br><br>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <br>
+            <label for="nomeEleitor">Nome:</label>
+            <input type="text" maxlength="50" size="50">
+            <br>
+            <label for="cpfEleitor">Numero do CPF:</label>
+            <input type="number" maxlength="14" size="30">
+        </fieldset>
+        <br><br>
+        <button type="submit">Vote</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+
+</html>
